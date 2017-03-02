@@ -1,0 +1,566 @@
+{
+  "settings": {
+    "currentPage": "index.htm",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 16,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@"
+  },
+  "pages": {
+    "index.htm": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">MOBIRISE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1203.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "KEINDAHAN ISLAM",
+          "text": "Agama Islam mempunyai keindahan-keindahan yang justru kebanyakan kaum muslimin tidak menyadarinya. Keindahan-keindahan tersebut meliputi seluruh syariat Islam yang kini semakin terungkap dan mulai diketahui faidahnya.<br><br>Sangat banyak sekali keindahan-keindahan Islam yang sekiranya kita mau memikirkannya, niscaya kita tidak akan sanggup untuk mengupasnya lebih dalam.<br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.youtube.com/watch?v=5QA5GsDeg34\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">KEINDAHAN ISLAM</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"http://www.quranwow.com/#/ch/1/t1/ar-allah/t2/en-itania/a1/alafasy-64/a2/itania-64/v/1\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">AL QURAN ONLINE</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2016 Mobirise."
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-3",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "&nbsp;VIDEOS",
+          "text": "Islam adalah Agama Seluruh Nabi dan Rasul, Islam adalah agama yang memiliki fadhilah (keutamaan) yang tidak terhingga. Siapa pun yang menyelaminya, dia akan mendapatkan betapa luas dan dalamnya keindahan itu",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://www.youtube.com/watch?v=Up-Pyph8wbk\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLOSE TO YOU</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://www.youtube.com/watch?v=pZxFZNRHbZ4\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">PEACE BE UPON YOU</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-6",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/maherzain1-1400x787.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/RBrdl0v_anc\" frameborder=\"0\" allowfullscreen></iframe>",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "THANK YOU ALLAH",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/watch?v=RBrdl0v_anc\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MORE</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-9",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/maherzain2-1400x787.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/mHpTdsBbYRM\" frameborder=\"0\" allowfullscreen></iframe>",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "BARAKA ALLAHU LAKUMA",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/watch?v=mHpTdsBbYRM\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MORE</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-a",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/maherzain3-1400x787.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "video": {
+              "src": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GqANaL4U2ik\" frameborder=\"0\" allowfullscreen></iframe>",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "ALWAYS BE THERE",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/watch?v=GqANaL4U2ik\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-c",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Islam, Agama yang Diridhai oleh Allah Subhanahuwata’ala</p><p><br></p><p>Di antara keindahan Islam yang sangat mendasar, Islam adalah satusatunya agama yang diridhai oleh Allah Subhanahuwata’ala. Allah Subhanahuwata’ala tidak menerima dari seorang hamba selain Islam. Allah Subhanahuwata’ala berfirman,</p><p><br></p><p>وَمَن يَبْتَغِ غَيْرَ الْإِسْلَامِ دِينًا فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِي الْآخِرَةِ مِنَ الْخَاسِرِينَ</p><p><br></p><p>“Barang siapa mencari agama selain agamaIslam, sekali-kali tidaklah akan diterima (agama itu) darinya, dan dia di akhirat termasuk orang-orang yang rugi.” (Ali Imran: 85)</p><p><br></p><p>As-Sa’di t berkata, “Barang siapa beribadah kepada Allah Subhanahuwata’ala dengan selain agama Islam yang Allah Subhanahuwata’ala meridhainya untuk hamba-Nya, sungguh amalannya tertolak, tidak diterima. Sebab, agama Islam sajalah yang mengandung ketundukan kepada Allah l, ketulusan (dalam beribadah kepada-Nya), dan ketaatan kepada para rasul-Nya. Siapa pun yang tidak membawa Islam berarti ia tidak menempuh sebab keselamatan dari azab Allah l dan keberuntungan dengan pahala-Nya. Semua agama selain Islam adalah batil.” (Tafsir as-Sa’di)</p>",
+          "text2": "<p>Islam Mengeluarkan Manusia dari Kegelapan Menuju Cahaya</p><p><br></p><p>Keindahan Islam ini disaksikan oleh semua mata manusia, dan dibuktikan oleh sejarah kehidupan manusia. Islam mengeluarkan manusia dari kegelapan syirik menuju cahaya tauhid, mengeluarkan manusia dari kegelapan kemaksiatan menuju cahaya ketaatan, kegelapan dan kebodohan menuju cahaya ilmu. Allah Subhanahuwata’ala berfirman,</p><p><br></p><p>اللَّهُ وَلِيُّ الَّذِينَ آمَنُوا يُخْرِجُهُم مِّنَ الظُّلُمَاتِ إِلَى النُّورِ ۖ وَالَّذِينَ كَفَرُوا أَوْلِيَاؤُهُمُ الطَّاغُوتُ يُخْرِجُونَهُم مِّنَ النُّورِ إِلَى الظُّلُمَاتِ ۗ أُولَٰئِكَ أَصْحَابُ النَّارِ ۖ هُمْ فِيهَا خَالِدُونَ</p><p><br></p><p>“Allah Pelindung orang-orang yang beriman. Dia mengeluarkan mereka dari kegelapan (kekafiran) kepada cahaya (iman). Orang-orang yang kafir, pelindung-pelindungnya ialah setan, yang mengeluarkan mereka dari cahaya kepada kegelapan ( kekafiran) . Mereka itu adalah penghuni neraka;  mereka kekal di dalamnya.” (al-Baqarah: 257)</p><p><br></p><p>Dahulu manusia berada di atas Islam, mentauhidkan Allah l dalam beribadah kepada-Nya. Kemudian muncullah awal kesyirikan di masa Nabi Nuh ‘Alaihisslam. Sekelompok manusia ketika itu menjadikan Wadd, Suwa’, Yaghuts, dan Nasr sebagai sesembahan selain Allah Subhanahuwata’ala. Allah Subhanahuwata’ala pun mengutus Nuh ‘Alaihissalam menyeru manusia mengajak mereka keluar dari kegelapan syirik menuju cahaya tauhid.</p>",
+          "text3": "<p>Islam adalah Agama yang Mudah</p><p><br></p><p>Di antara keindahan Islam, ia adalah agama yang mudah, tidak memberatkan sama sekali. Bahkan, siapa yang berpegang dengannya, ia dapatkan semuanya dimudahkan oleh Allah Subhanahuwata’ala. Akidah Islam adalah akidah yang mudah, karena ia sesuai dengan fitrah penciptaan manusia.</p><p><br></p><p>Demikian pula ibadah, muamalah, dan akhlak yang diajarkan Islam, semuanya mudah dan mendatangkan maslahat (kebaikan kebaikan) dunia dan akhirat. Keindahan Islam berupa kemudahan ini ditunjukkan oleh dalil-dalil dari al- Kitab dan as-Sunnah. Allah Subhanahuwata’ala berfirman,</p><p><br></p><p>مَا يُرِيدُ اللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ</p><p><br></p><p>“… Allah tidak hendak menyulitkan kamu, tetapi Dia hendak membersihkan kamu dan menyempurnakan nikmat- Nya bagimu, supaya kamu bersyukur.” (al-Maidah: 6)</p><p><br></p><p>يُرِيدُ اللَّهُ بِكُمُ الْيُسْرَ وَلَا يُرِيدُ بِكُمُ الْعُسْرَ</p><p><br></p><p>“Alah menghendaki kemudahan bagi kalian dan tidak menghendaki kesukaran bagi kalian.” (al-Baqarah: 185)</p><p><br></p><p>Dalam sebuah hadits, Rasulullah n bersabda menegaskan pokok yang agung ini,</p><p><br></p><p>إِنَّ هَذَا الدِّينَ يُسْرٌ وَلَنْ يُشَادَّ الدِّينَ أَحَدٌإِلَّا غَلَبَهُ</p><p><br></p><p>“Sesungguhnya agama Islam ini mudah, dan tidak ada seorang pun memperberat agama ini melainkan ia akan dikalahkan.” (HR. al-Bukhari dari sahabat Abu Hurairah radhiyallahu anhu)</p><p><br></p><p>Sumber : http://www.asysyariah.com</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials2",
+          "testimonial": [
+            {
+              "text": "<p>Nilai seseorang sesuai dengan kadar tekadnya, ketulusannya sesuai dengan kadar kemanusiaannya, keberaniannya sesuai dengan kadar penolakannya terhadap perbuatan jahat dan kesucian hati nuraninya sesuai dengan kadar kepekaannya terhadap kehormatan dirinya.</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/6-160x118.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Khalifah Ali bin Abi Talib.",
+              "authorBio": ""
+            },
+            {
+              "text": "<p>1. Sesungguhnya seorang hamba itu bila merasa ujub kerana suatu perhiasan dunia, niscaya Allah akan murka kepadanya hingga dia melepaskan perhiasan itu.</p><p>2. Semoga aku menjadi pohon yang ditebang kemudian digunakan.</p><p>3. Dia berkata kepada para sahabat,”Sesungguhnya aku telah mengatur urusan kamu, tetapi aku bukanlah org yg paling baik di kalangan kamu maka berilah pertolongan kepadaku. Kalau aku bertindak lurus maka ikutilah aku tetapi kalau aku menyeleweng maka betulkan aku!”</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/6-160x118.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Abu Bakar.",
+              "authorBio": ""
+            },
+            {
+              "text": "<p>1. Jika tidak karena takut dihisab, sesungguhnya aku akan perintahkan membawa seekor kambing, kemudian dipanggang untuk kami di depan pembakar roti.</p><p>2. Barangsiapa takut kepada Allah SWT nescaya tidak akan dapat dilihat kemarahannya. Dan barangsiapa takut pada Allah, tidak sia-sia apa yang dia kehendaki.</p><p>3. Wahai Tuhan, janganlah Engkau jadikan kebinasaan umat Muhammad SAW di atas tanganku. Wahai Tuhanku, umurku telah lanjut dan kekuatanku telah lemah. Maka genggamkan (matikan) aku untukMu bukan untuk manusia.</p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/6-160x118.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "UMAR BIN KHATTAB.",
+              "authorBio": "User"
+            }
+          ],
+          "_anchor": "testimonials2-d",
+          "_params": {
+            "count": 3,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/sky.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true
+          },
+          "title": "KATA-KATA BIJAK PARA ALIM DAN ULAMAK",
+          "subtitle": "Panduan Hidup&nbsp;"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-e",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Keep in Touch",
+          "subtitle": "Islam is the way of life",
+          "form": {
+            "action": "huytera@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SUBSCRIBE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-f",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "CONTACT FORM",
+          "subtitle": "Bina langkah untuk mengenali keindahan islam dengan lebih dalam",
+          "form": {
+            "action": "huytera@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+        }
+      ]
+    }
+  }
+}
